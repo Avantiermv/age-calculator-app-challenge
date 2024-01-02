@@ -9,21 +9,42 @@
 <body>
 
   <section>
-    <div>
-      <p>Day</p>
-      <input type="number" name="day" id="iday">
-      <p>Month</p>
-      <input type="number" name="mounth" id="imonth">
-      <p>Year</p>
-      <input type="number" name="year" id="iyear">
-
-      <input type="button" value="calcule" onclick="calcular()">
+    <div id="inicio">
+      
+       <div class="inputs">
+         <div class="input">
+           <label for="iday">Day</label>
+              <input type="text" placeholder="DD" id="iday">
+              <div class="error"></div>
+         </div>
+          <div class="input">
+            <label for="imonth">Month</label>
+              <input type="text" placeholder="MM" id="imonth">
+              <div class="error"></div>
+          </div>
+          <div class="input">
+            <label for="iyear">Year</label>
+              <input type="text" placeholder="YYYY" id="iyear">
+              <div class="error"></div>
+          </div>
+         
+          <div class="button">
+            <div class="line"></div>
+            <button id="submit"><img src="./assets/images/icon-arrow.svg" alt="submit"></button>
+            <div class="line2"></div>
+          </div>
+       </div>
+      
+      <div class="res">
+        <span>--</span>Years
+      </div>
+      <div class="res">
+        <span>--</span>Months
+      </div>
+      <div class="res">
+        <span>--</span>Days
+      </div>
     </div>
-
-    <div id="res">
-
-    </div>
-
   </section>
 
   <script src="logic.js"></script>
