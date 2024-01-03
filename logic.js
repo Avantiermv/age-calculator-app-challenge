@@ -138,7 +138,7 @@ window.onload = function(){
             return false;
         }
         else{
-            errorstate(2, year, typeOfError[0], "")
+            errorstate(2, year, typeOfError[0], "#");
             return true;
         }
     }
