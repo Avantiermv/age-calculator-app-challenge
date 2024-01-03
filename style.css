@@ -23,7 +23,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 div#inicio{
@@ -104,6 +104,14 @@ span{
     color: var(--cor1);
 }
 
+footer{
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    width: 500px;
+    height: 20px;
+}
+
 @media (max-width: 600px){
     section{
         width: 575px;
@@ -132,6 +140,10 @@ span{
         font-size: 17px;
     }
 
+    div.input > label{
+        text-align: center;
+    }
+
     div.res{
         font-size: 25px;
         width: 120px;
@@ -144,5 +156,12 @@ span{
 
     button > img{
         width: 18px;
+    }
+
+    footer{
+        text-align: center;
+        margin: auto;
+        width: 300px;
+
     }
 }

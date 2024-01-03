@@ -122,19 +122,19 @@ window.onload = function(){
             return false;
         }
         else if(year.value > currentyear) {
-            errorstate(3, year, typeOfError[4], "#ff5757");
+            errorstate(2, year, typeOfError[4], "#ff5757");
             return false;
         }
-        else if (isLeapYear(day.value, month.value, year.value) == false){
-            errorstate(2, year, typeOfError[0], "#ff5757");
+        else if (year.value == currentyear && month.value > currentmonth){
+            errorstate(1, month, typeOfError[3], "#ff5757");
             return false;
         }
-        else if(year.value == currentyear && month.value > currentmonth){
-            errorstate(1, month, typeOfError[3],"#ff5757");
+        else if(year.value == currentyear && month.value > currentmonth && day.value > currentday){
+            errorstate(0, mondayh, typeOfError[2],"#ff5757");
             return false;
         }
-        else if(year.value == currentyear && month.value == currentmonth &&  day.value > currentday){
-            errorstate(0, day, typeOfError[2],"#ff5757");
+        else if(isLeapYear(day.value, month.value, year.value) == false){
+            errorstate(2, year, typeOfError[0],"#ff5757");
             return false;
         }
         else{
