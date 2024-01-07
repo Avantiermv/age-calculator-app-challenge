@@ -14,8 +14,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -35,12 +33,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./Web%20capture_7-1-2024_13408_avantiermv.github.io.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/Avantiermv/age-calculator-app-challenge)
+- Live Site URL: [](https://avantiermv.github.io/age-calculator-app-challenge/)
 
 ## My process
 
@@ -57,7 +55,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@Avantiermv](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Avantiermv](https://www.frontendmentor.io/profile/Avantiermv)
 
 ## Acknowledgments
 
