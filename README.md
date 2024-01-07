@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/Avantiermv/age-calculator-app-challenge)
-- Live Site URL: [](https://avantiermv.github.io/age-calculator-app-challenge/)
+- Solution URL: [The solution](https://github.com/Avantiermv/age-calculator-app-challenge)
+- Live Site URL: [Live site](https://avantiermv.github.io/age-calculator-app-challenge/)
 
 ## My process
 
