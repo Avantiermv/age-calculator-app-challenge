@@ -28,10 +28,10 @@ window.onload = function(){ //* Esta linha garante que o código dentro da funç
     const typeOfError = [
         "",
         "This field is required",
-        "Must be a valid month",
         "Must be a valid day",
+        "Must be a valid month",
         "Must be a  valid year",
-        "must be a valid date"
+        "must be a valid date",
     ]
 
 
