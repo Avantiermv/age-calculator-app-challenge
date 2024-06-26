@@ -121,7 +121,7 @@ window.onload = function(){ //* Esta linha garante que o código dentro da funç
     //*A função isMonthcorrect verifica se o valor do mês é válido. Se o campo estiver vazio, se o valor for menor ou igual a 0 ou maior que 12, ou se a data completa não for válida, a função retorna false e atualiza a mensagem de erro e a cor do campo mês. Se o valor do mês for válido, a função retorna true e limpa a mensagem de erro.
     const isMonthcorrect = () => {
         if(month.value == "") {
-            errorstate(1, month, typeOfError[1], "#ff5757");
+            errorstate(1, month, typeOfError[2], "#ff5757");
             return false;
         }
         else if(month.value <= 0 || month.value > 12) {
